@@ -30,7 +30,7 @@ else if(resultat_user == random_number)
     printf("Entrez un nombre : ");
     scanf("%d",&resultat_user);
   }
-  if(nbre_vie == 0)  {printf("Perdu! \nLe nombre mystère était %d", random_number);}
+  if(nbre_vie == 0)  {printf("Perdu! \nLe nombre mystère était %d\n", random_number);}
 
   return 0;
 }
