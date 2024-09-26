@@ -8,6 +8,7 @@ srand(time(NULL));
 int random_number = rand()% 100 + 1 ;
 int resultat_user = 0;
 int nbre_vie = 4;
+  
 printf("Essaie de trouver le numero mystère entre 0 et 100 en 10 vie\n");
 printf("Entrez un nombre : ");
 scanf("%d", &resultat_user);
