@@ -20,7 +20,7 @@ for(nbre_vie=9; nbre_vie>0; nbre_vie--)
 
   else if(resultat_user < random_number)
   {printf("c'est plus! \nIl vous reste %d vie!\n", nbre_vie);}
-
+    
   else if(resultat_user > random_number)
   {printf("c'est moins! \nIl vous reste %d vie!\n", nbre_vie);}
 
