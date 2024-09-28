@@ -56,19 +56,27 @@ printf("Le modulo de %d et de %d est %d\n", number1, number2, number1 % number2 
 }
 break;
 
+else
+{
+printf("Le modulo de %d et de %d est %d\n", number1, number2, number1 % number2 );
+}
+break;
+
 default:
 printf("Operateur incorrect\n");
 break;
 
 }
-printf("Souhaitez-vous recommencer? 1.Oui 2.Non\n");
-scanf("%d", &recommencer);
-if(recommencer == 1) 
+char Oui;
+char Non;
+printf("Souhaitez-vous recommencer? Oui ou Non\n");
+scanf("%s", &Oui);
+if (Oui == 'O' || Oui == 'o' )
 
 {
 goto recommence;
-}
-else
+} 
+else if (Non == 'N' || Non == 'n')
 {
 return 0;
  }
