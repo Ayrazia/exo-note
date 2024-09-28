@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -7,9 +8,9 @@ int main(void)
 int number1;
 int number2;
 char operateur;
-int recommencer;
-recommence:
+
 printf("Bonjour, voici un mini calculatrice\n");
+recommence:
 printf("Choissisez un opérateur(+, *, -, /,%)\n");
 scanf("%s", &operateur);
 
@@ -56,7 +57,6 @@ printf("Le modulo de %d et de %d est %d\n", number1, number2, number1 % number2 
 }
 break;
 
-else
 {
 printf("Le modulo de %d et de %d est %d\n", number1, number2, number1 % number2 );
 }
@@ -76,7 +76,7 @@ if (Oui == 'O' || Oui == 'o' )
 {
 goto recommence;
 } 
-else if (Non == 'N' || Non == 'n')
+else if(Non == 'N' || Non == 'n')
 {
 return 0;
  }
