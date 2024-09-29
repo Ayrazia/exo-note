@@ -75,7 +75,7 @@ if (Oui == 'O' || Oui == 'o' )
 
 {
 goto recommence;
-} 
+}
 else if(Non == 'N' || Non == 'n')
 {
 return 0;
